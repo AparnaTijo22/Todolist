@@ -1,0 +1,84 @@
+body{
+    height: 96vh;
+    background-image: linear-gradient(to bottom left, #e4e9fd 60%, #a683e3 30%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    width: 25%;
+    margin: auto;
+    background-color: #a683e3;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    margin-top: 4%;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    box-shadow: 0px 4px 9px -4px black;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.box{
+    box-shadow: 0px 4px 9px -4px black;
+    width: 25%;
+    border-radius: 5px;
+    margin: auto;
+    background-color: white;
+}
+
+.itemList{
+    padding-top: 4%;
+    padding-bottom: 6%;
+    color: #454545;
+}
+
+#itemPara{
+    display: inline;
+    padding-left: 14px;
+    color: #6c7d8b;
+}
+
+#itemLi{
+    border-bottom: 1px solid #e3e3e3;
+    padding-top: 9%;
+}
+
+input[type= "checkbox"]{
+    margin-left: 10%;
+}
+
+input:checked + p{ 
+    text-decoration: line-through;
+}
+
+#addedItem{
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    margin-left: 17%;
+    color: #5d5959;
+}
+
+#newItemPara{
+    margin-left: 70px;
+    margin-bottom: 5%
+}
+
+
+.bttn{
+    background-color: #a683e3;
+    color: whitesmoke;
+    border-radius: 50%;
+    border: none;
+    width: 11%;
+    font-size: 2rem;
+}
+
+.bttn:hover{
+    background-color: mediumslateblue;
+}
